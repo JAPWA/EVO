@@ -2800,19 +2800,6 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/23&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'يوتيوب'  then
-local Text = [[
-بوت اليوتيوب الخاص بسورس ستار
-اتبع الزر إلى تحت ↓
-
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = '(JABWA),url="t.me/Ssociial_bot"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
 if text == 'المبرمج  ايفانيي' then
 local Text = [[
 المبرمج فامبير لو حابب تتواصل معاهه
