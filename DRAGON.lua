@@ -3163,7 +3163,7 @@ local TWEET_Msg = {
 "اكله بحرف⇐س",
 "عصير بحرف⇐ت",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "ازكار" then 
@@ -3182,7 +3182,7 @@ local TWEET_Msg = {
 "اللهم بك اصبحنا وبك امسينا وبك نحيا ونموت واليك النشور🤲❤️",
 "لا اله الا الله وحده لا شريك له, له الملك وله الحمد وهو علي كل شئ قدير🤲❤️",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "بوستات" or text == "كتابات" then 
@@ -3235,7 +3235,7 @@ local TWEET_Msg = {
 "انا عملت كل حاجه واتقالي اني معملتش اي حاجه ، ف بدأت فعلا معملش حاجه وانا متعمد ..",
 "لا تسقني ماء الحياة بذلّةٍ، بل فاسقني بالعزّ كأس الحنضلِ.",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "عقاب" or text == "عاقبني" then 
@@ -3256,7 +3256,7 @@ local TWEET_Msg = {
 "اقعد منغير متمسك الفون لمده ساعه",
 "خلاص صعبت عليا مش هعاقبك",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "اسعار ستار" then 
