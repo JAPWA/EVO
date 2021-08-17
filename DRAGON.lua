@@ -3145,7 +3145,7 @@ local TWEET_Msg = {
 "لو خيروك | تاكل دبانه او صرور🙄?",
 "لو خيروك | تغير لون بشرتك ولا لون شعرك🙄?",
 } 
-send(msg.chat_id_, msg.id_, [ ..TWEET_Msg[math.random(#TWEET_Msg)].. ] )  
+send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']')  
 return false 
 end
 if text == "حروف" or text == "كلمات" then 
