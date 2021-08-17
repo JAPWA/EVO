@@ -3354,8 +3354,6 @@ ght = math.random(2,22);
 local Text = "تم اختيار الفيديو الخاص بك🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
-{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token.. /sendVideo?chat_id=  .. msg.chat_id_ ..  &video=https://t.me/ssstaaaar/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3365,8 +3363,6 @@ ght = math.random(3,200);
 local Text = "تم اختيار الخلفيه الخاصه بك🤤♥"  
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
-{{text =  CHANNEL ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token.. /sendPhoto?chat_id=  .. msg.chat_id_ ..  &photo=https://t.me/ssstaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3376,8 +3372,6 @@ ght = math.random(2,22);
 local Text = "تم اختيار الاغنيه الخاصه بك♥🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
-{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token.. /sendVoice?chat_id=  .. msg.chat_id_ ..  &voice=https://t.me/ssttaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3387,8 +3381,6 @@ ght = math.random(2,22);
 local Text = "تم اختيار الثيم الخاص بك♥🤤"
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  DEV VAMBAIR ,url="t.me/DEV_VAMBAIR"}}, 
-{{text =  SOURCE STAR ,url="t.me/SOURCE_STAR1"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token.. /sendDocument?chat_id=  .. msg.chat_id_ ..  &document=https://t.me/stttaaarrr/ ..ght.. &caption=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13383,7 +13375,7 @@ Msᴀɢ ~ #msgs
 [[
 .𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  🖤 ↴
 .𖣂 𝙨𝙩𝙖𝙨𝙩 , #stast  🖤 ↴
-.𖣂 𝙡𝘿 , #id  🖤 ↴
+.?? 𝙡𝘿 , #id  🖤 ↴
 .𖣂 𝘼𝙪𝙩𝙤 , #auto  🖤 ↴
 .𖣂 𝙢𝙨𝙂𝙨 , #msgs  🖤 ↴
 .𖣂 𝗖𝗛 - @SOURCE_STAR1 ✯
