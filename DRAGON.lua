@@ -3261,7 +3261,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙴 𝚅 𝙰 𝙽 𝙳 𝙸',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}}
+{{text = '𝙴 𝚅 𝙰 𝙽 𝙳 𝙸',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}},
 {{text = '𝙹𝙰𝙱𝚆𝙰',url="t.me/J_A_B_W_A"}},
 {{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾',url="t.me/UU_LM_5"}},
 {{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
@@ -15267,7 +15267,7 @@ local List = {
 - 𝗖𝗛 - ↝@Sadauam↜ 💞.
 ]],
 [[
-⚕𝙐𝙎𝙀𝙍𝙉𝘼𝙈𝙀 : #username
+⚕𝙐𝙎𝙀??𝙉𝘼𝙈𝙀 : #username
 ⚕𝙈𝙀𝙎𝙎𝘼𝙂𝙀𝙎 : #msgs
 ⚕𝙎𝙏𝘼𝙏𝙎 : #stast
 ⚕𝙄𝘿 : #id
