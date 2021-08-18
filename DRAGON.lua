@@ -12970,7 +12970,7 @@ local Text ='تم اختيار المقطع لو خيروك لك'
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}}, 
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
+{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/Sadauam"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
@@ -12983,7 +12983,6 @@ sender = rpl[math.random(#rpl)]
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendmessage?chat_id=' .. msg.sender_user_id_ .. '&text=' .. URL.escape(sender))
 end
-}
 if text == 'حمينينيوصل' then
 local Text = [[
 ]]
