@@ -3292,7 +3292,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍 𝙴 𝚅 ?? 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
