@@ -1333,7 +1333,7 @@ local Text = '𖤍 انت الان المطور الاساسي في البوت \
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName}}, 
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3239,7 +3239,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍', url="t.me/UU_LM_5"}}, 
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/406/903&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3263,7 +3263,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}},
 {{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍',url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3279,7 +3279,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖤍 𝚃𝙾 𝙰𝚂𝙺 𖤍',url="t.me/J_a_b_w_a_bot"}}, 
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/162&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3293,7 +3293,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LM011N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3307,7 +3307,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙰𝙷𝙼𝙰𝙳 𖤍', url="t.me/L011x"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LM011N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3321,7 +3321,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3340,7 +3340,7 @@ keyboard.inline_keyboard = {
 {{text = 'بوت انستقرام 🎌',url="t.me/J33Bot"}},
 {{text = 'بوت قران 🕌',url="t.me/quran_lbot"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/8&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3365,7 +3365,7 @@ keyboard = {} keyboard.inline_keyboard = {
 {{text = '📖رواية" مقبرة الحيوانات""', url="https://t.me/UU_LM_5"}},
 {{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
@@ -3407,7 +3407,7 @@ keyboard.inline_keyboard = {
 {{text = 'جابوا مبرمج السورس',url="t.me/J_A_B_W_A"}},
 {{text = 'سامح مالك السورس',url="t.me/Sa_me_h"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/beborty/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3442,7 +3442,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/taha_ow/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3454,7 +3454,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍' ,url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Boys_app/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3466,7 +3466,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text =  '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍' ,url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Girl_ap/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3478,7 +3478,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text =  '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍' ,url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/BOY_GIRLM/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3490,7 +3490,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text =  '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍' ,url="t.me/J_A_B_W_A"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/JABWA/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -4633,7 +4633,7 @@ ght = math.random(1,28);
 local Text ='مرحبا إليك تويت بالصور🇪🇬' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/wffhvv/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -4643,7 +4643,7 @@ ght = math.random(1,24);
 local Text ='مرحبا اليك لو خيروك بالصوره🇪🇬' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/bebo44y/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -4653,7 +4653,7 @@ ght = math.random(1,15);
 local Text ='مرحبا إليك حروف بالصوره🇪🇬' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ffadi8/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -8866,7 +8866,7 @@ local textchuser = database:get(bot_id..'text:ch:user')
 if textchuser then
 send(msg.chat_id_, msg.id_,'['..textchuser..']')
 else
-send(msg.chat_id_, msg.id_,' 𖤍 لا تستطيع استخدام البوت \n 𖤍  يرجى الاشتراك بالقناه اولا \n 𖤍  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+send(msg.chat_id_, msg.id_,' 𖤍 لا تستطيع استخدام البوت \n ??  يرجى الاشتراك بالقناه اولا \n 𖤍  اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
 end
 return false
 end
@@ -12921,7 +12921,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/ffaassaeadvn/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12934,7 +12934,7 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/JABWA/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -16760,7 +16760,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -17662,7 +17662,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17776,7 +17776,7 @@ keyboard.inline_keyboard = {
 {{text = 'نسبه جمالي', callback_data="/help18"},{text = 'اليتيوب', callback_data="/help24"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/help7"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -17942,7 +17942,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17983,7 +17983,7 @@ keyboard.inline_keyboard = {
 {{text = 'نسبه جمالي', callback_data="/help18"},{text = 'اليتيوب', callback_data="/help24"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -18083,7 +18083,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
