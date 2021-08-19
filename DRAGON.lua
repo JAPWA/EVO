@@ -17809,7 +17809,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍 ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍 ',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
