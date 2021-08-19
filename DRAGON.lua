@@ -16789,7 +16789,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍 ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍 ', url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 local msg_id = msg.id_/2097152/0.5
