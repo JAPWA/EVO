@@ -992,7 +992,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘',url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚃𝙰𝙷𝙰 𝙾𝚂𝙺𝙰𝚁 𖣘',url="t.me/Xxx_ksomk_xxX"}},
 {{text = '𖣘 𝚃𝙾 𝙰𝚂𝙺 𖣘',url="t.me/J_a_b_w_a_bot"}}, 
 }
@@ -1281,7 +1281,7 @@ HardDisk=`df -lh | awk '{if ($6 == "/") { print $3"/"$2" ~ {"$5"}" }}'`
 CPUPer=`top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'`
 uptime=`uptime | awk -F'( |,|:)+' '{if ($7=="min") m=$6; else {if ($7~/^day/) {d=$6;h=$8;m=$9} else {h=$6;m=$7}}} {print d+0,"days,",h+0,"hours,",m+0,"minutes."}'`
 echo '⇗ نظام التشغيل ⇖•\n* '"$linux_version"'*' 
-echo '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ᪣⟧⟝┄┉━𖤍\n ☽↝ الذاكره العشوائيه ↜  ↚\n* '"$memUsedPrc"'*'
+echo '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴??𝙾 ᪣⟧⟝┄┉━𖤍\n ☽↝ الذاكره العشوائيه ↜  ↚\n* '"$memUsedPrc"'*'
 echo '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ᪣⟧⟝┄┉━𖤍\n ☽↝ وحـده الـتـخـزيـن ↜  ↚\n* '"$HardDisk"'*'
 echo '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ᪣⟧⟝┄┉━𖤍\n ☽↝ الـمــعــالــج ↜  ↚\n* '"`grep -c processor /proc/cpuinfo`""Core ~ {$CPUPer%} "'*'
 echo '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ᪣⟧⟝┄┉━𖤍\n ☽↝ الــدخــول ↜  ↚\n* '`whoami`'*'
@@ -3233,12 +3233,12 @@ local Text = [[
 ☽ معني + اسمك ⤌ لعرض الميزه
 ☽ خلفيات ⤌ لعرض الميزه
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
- ☽ 𝗖𝗛 - [ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗔𝗜𝗗𝗔 ](t.me/UU_LM_5) 
+ ☽ 𝗖𝗛 - [ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗘𝗩𝗢 ](t.me/UU_LM_5) 
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
 ]]
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+𝗦𝗢𝗨𝗥𝗖𝗘 𝗘𝗩𝗢 🜼 
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/UU_LM_5"}}, 
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
@@ -3261,10 +3261,10 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝙴 𝚅 𝙰 𝙽 𝙳 𝙸',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}},
-{{text = '𝙹𝙰𝙱𝚆𝙰',url="t.me/J_A_B_W_A"}},
-{{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾',url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}},
+{{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍',url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3277,7 +3277,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘',url="t.me/J_A_B_W_A"},{text = '𖣘 𝚃𝙰𝙷𝙰 𝙾𝚂𝙺𝙰𝚁 𖣘', url="t.me/xxx_ksomk_xxx"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚃𝙾 𝙰𝚂𝙺 𖣘',url="t.me/J_a_b_w_a_bot"}}, 
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'اضف البوت الي مجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
@@ -3293,11 +3293,11 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖣘 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖣘',url="t.me/LM011N"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LM011N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'احمد' or text == 'المالك احمد' or text == 'مالك السورس' then
@@ -3308,10 +3308,10 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙰𝙷𝙼𝙰𝙳 𖤍', url="t.me/L011x"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LM011N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'جابوا' or text == 'المبرمج جابوا' or text == 'مبرمج السورس²' then
@@ -12196,7 +12196,7 @@ local msg_id = msg.id_/2097152/0.5
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -12230,7 +12230,7 @@ keyboard.inline_keyboard = {
 {text = 'الـمـطـور', url="http://t.me/"..sudos.UserName},
 },
 {
-{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
+{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"},
 },
 }
 local function getpro(extra, result, success) 
@@ -12920,7 +12920,7 @@ ght = math.random(30,199);
 local Text ='تم اختيار المقطع الصوتي لك'
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
@@ -12933,7 +12933,7 @@ ght = math.random(2,22);
 local Text ='تم اختيار اغنيه بفديو  لك 🌚❤️ ' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
@@ -12945,7 +12945,7 @@ ght = math.random(2,22);
 local Text ='تم اختيار فديو استوري  لك 🌚❤️ ' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
@@ -12957,7 +12957,7 @@ ght = math.random(1,33);
 local Text ='الستخدم ثيم اخر اكتب ثيم'  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 }  
@@ -12969,7 +12969,7 @@ ght = math.random(28,56);
 local Text ='تم اختيار المقطع لو خيروك لك' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}}, 
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/Sadauam"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
@@ -13048,7 +13048,7 @@ ght = math.random(3,300);
 local Text =' ' 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
