@@ -3239,7 +3239,7 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/UU_LM_5"}}, 
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Sadauam/406/903&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -12920,8 +12920,8 @@ local Text ='تم اختيار المقطع الصوتي لك'
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/ffaassaeadvn/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12933,8 +12933,8 @@ local Text ='تم اختيار اغنيه بفديو  لك 🌚❤️ '
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/JABWA/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12945,8 +12945,8 @@ local Text ='تم اختيار فديو استوري  لك 🌚❤️ '
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/sijebehdhd/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12957,8 +12957,8 @@ local Text ='الستخدم ثيم اخر اكتب ثيم'
 keyboard = {}   
 keyboard.inline_keyboard = {  
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendDocument?chat_id=' .. msg.chat_id_ .. '&document=https://t.me/ahmedthem1/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12969,8 +12969,8 @@ local Text ='تم اختيار المقطع لو خيروك لك'
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/Sadauam"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖤍', url="t.me/Sadauam"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/koko12300/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13048,8 +13048,8 @@ local Text =' '
 keyboard = {}  
 keyboard.inline_keyboard = { 
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
+{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&Photo=https://t.me/wffhvv/'..ght..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13573,7 +13573,7 @@ if text == 'رتبتي' then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
 local function getpro(extra, result, success)
 if result.photos_[0] then
-sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,"رتبتك يا قلبي⇇"..Rutba(msg.sender_user_id_,msg.chat_id_).." ❤️🙈", msg.id_, msg.id_, "md")
+sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,"رتبتك يا قلبي ⇇ "..Rutba(msg.sender_user_id_,msg.chat_id_).." ❤️🙈", msg.id_, msg.id_, "md")
 else
 send(msg.chat_id_, msg.id_,'لا تمتلك صوره في حسابك', 1, 'md')
   end end
@@ -13584,7 +13584,7 @@ if text == 'انا مين' then
 local rtp = Rutba(msg.sender_user_id_,msg.chat_id_)
 local function getpro(extra, result, success)
 if result.photos_[0] then
-sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_," انـت⇇"..Rutba(msg.sender_user_id_,msg.chat_id_).."🤤❤️", msg.id_, msg.id_, "md")
+sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_," انـت ⇇"..Rutba(msg.sender_user_id_,msg.chat_id_).."🤤❤️", msg.id_, msg.id_, "md")
 else
 send(msg.chat_id_, msg.id_,'لا تمتلك صوره في حسابك', 1, 'md')
   end end
@@ -15188,7 +15188,7 @@ local List = {
 🌯 ¦✙• 𝐮𝐬𝐞𝐫𝒏𝒂𝒎𝒆 ➢ ⁞  #username 🇪🇬
 🌯 ¦✙• 𝐦𝐬𝐠 ➢ ⁞  #msgs  ??
 🌯 ¦✙• 𝒓𝒂𝒏𝒌 ➢ ⁞ #stast  
-🌯 ¦✙• 𝐢𝐝 𝒔𝒕𝒂 ➢ ⁞ #id  🆔
+?? ¦✙• 𝐢𝐝 𝒔𝒕𝒂 ➢ ⁞ #id  🆔
 🌯 ¦ 𝗖𝗛 - ↝@Sadauam↜ ☽.
 ]],
 [[
@@ -16760,7 +16760,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -16789,7 +16789,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍 ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -17662,7 +17662,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17776,7 +17776,7 @@ keyboard.inline_keyboard = {
 {{text = 'نسبه جمالي', callback_data="/help18"},{text = 'اليتيوب', callback_data="/help24"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/help7"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘', url="t.me/Sadauam"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -17809,7 +17809,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍 ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17832,7 +17832,7 @@ keyboard.inline_keyboard = {
 {{text = 'مريم', callback_data="/help36"},{text = 'عقاب', callback_data="/help42"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍 ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -17942,7 +17942,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17961,7 +17961,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -17983,7 +17983,7 @@ keyboard.inline_keyboard = {
 {{text = 'نسبه جمالي', callback_data="/help18"},{text = 'اليتيوب', callback_data="/help24"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -18083,7 +18083,7 @@ keyboard.inline_keyboard = {
 },
 {
 {{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖣘 ', url="t.me/UU_LM_5"}},
-{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
