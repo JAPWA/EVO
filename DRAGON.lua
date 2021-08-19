@@ -3293,7 +3293,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 ?? 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍'' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = 'اضف البوت الي مجموعتك 𖤍' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/LM011N&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -5782,7 +5782,7 @@ status  = '\n 𖤍 تم كتمه عام من الجروبات'
 texts = usertext..status
 database:sadd(bot_id..'Gmute:User', result.id_)
 else
-texts = ' ?? لا يوجد حساب بهاذا المعرف'
+texts = ' 𖤍 لا يوجد حساب بهاذا المعرف'
 end
 send(msg.chat_id_, msg.id_, texts)
 end
@@ -15893,7 +15893,7 @@ Msᴀɢ ~ #msgs
 ✶- 𝗖𝗛 - ↝@UU_LM_5↜ ↝❃.
 ]],
 [[
-• 🖤 | 𝑼𝑬𝑺 :  #username
+• ?? | 𝑼𝑬𝑺 :  #username
 
 • 🖤 | 𝑺𝑻𝑨 : #stast
 
