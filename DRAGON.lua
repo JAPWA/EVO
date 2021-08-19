@@ -993,7 +993,6 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖤍 𝚃𝙰𝙷𝙰 𝙾𝚂𝙺𝙰𝚁 𖤍',url="t.me/Xxx_ksomk_xxX"}},
 {{text = '𖤍 𝚃𝙾 𝙰𝚂𝙺 𖤍',url="t.me/@UU5iM_bot"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
@@ -1013,7 +1012,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'قناة السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
@@ -1028,7 +1027,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍', url="t.me/UU_LM_5"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == "عايز سورس" then
 if not DevSoFi(msg) then
@@ -1336,7 +1335,7 @@ keyboard.inline_keyboard = {
 {{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسـم مـطـورين ومـبــرمـجـين السـورس' and DevSoFi(msg) then 
@@ -1546,7 +1545,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "ضع اسم للبوت" and DevSoFi(msg) then  
@@ -2758,11 +2757,11 @@ else
 LinkGp = 'لا يوجد'
 end
 Text = ' 𖤍 تـم تـشغـيل الـبوت فـي الـجـروب جـديد\n'..
-'\n 𖤍بواسطة {↝'..Name..'↜}'..
-'\n 𖤍ايدي الجروب {'..IdChat..'}'..
-'\n 𖤍اسم الجروب {['..NameChat..']}'..
-'\n 𖤍عدد اعضاء الجروب *{'..NumMember..'}*'..
-'\n 𖤍الرابط {['..LinkGp..']}'
+'\n 𖤍 بواسطة {↝'..Name..'↜}'..
+'\n 𖤍 ايدي الجروب {'..IdChat..'}'..
+'\n 𖤍 اسم الجروب {['..NameChat..']}'..
+'\n 𖤍 عدد اعضاء الجروب *{'..NumMember..'}*'..
+'\n 𖤍 الرابط {['..LinkGp..']}'
 if not DevSoFi(msg) then
 sendText(SUDO,Text,0,'md')
 end
@@ -2799,10 +2798,10 @@ else
 LinkGp = 'لا يوجد'
 end
 Text = '\n تـم تـعـطيل الـبوت مـن الـجـروب 𖤍'..
-'\n 𖤍بواسطة {↝'..Name..'↜}'..
-'\n 𖤍ايدي الجروب {'..IdChat..'}'..
-'\n 𖤍اسم الجروب {['..NameChat..']}'..
-'\n 𖤍الرابط {['..LinkGp..']}'
+'\n 𖤍 بواسطة {↝'..Name..'↜}'..
+'\n 𖤍 ايدي الجروب {'..IdChat..'}'..
+'\n 𖤍 اسم الجروب {['..NameChat..']}'..
+'\n 𖤍 الرابط {['..LinkGp..']}'
 if not DevSoFi(msg) then
 sendText(SUDO,Text,0,'md')
 end
@@ -2857,12 +2856,12 @@ else
 LinkGp = 'لا يوجد'
 end
 Text = ' 𖤍 تـم تـشغـيل الـبوت فـي الـجـروب جـديد\n'..
-'\n 𖤍بواسطة {↝'..Name..'↜}'..
-'\n 𖤍موقعه في الجروب {'..AddPy..'}' ..
-'\n 𖤍ايدي الجروب {'..IdChat..'}'..
-'\n 𖤍عدد اعضاء الجروب *{'..NumMember..'}*'..
-'\n 𖤍اسم الجروب {['..NameChat..']}'..
-'\n 𖤍الرابط {['..LinkGp..']}'
+'\n 𖤍 بواسطة {↝'..Name..'↜}'..
+'\n 𖤍 موقعه في الجروب {'..AddPy..'}' ..
+'\n 𖤍 ايدي الجروب {'..IdChat..'}'..
+'\n 𖤍 عدد اعضاء الجروب *{'..NumMember..'}*'..
+'\n 𖤍 اسم الجروب {['..NameChat..']}'..
+'\n 𖤍 الرابط {['..LinkGp..']}'
 if not DevSoFi(msg) then
 sendText(SUDO,Text,0,'md')
 end
@@ -3209,61 +3208,64 @@ end,nil)
 end
 if text == 'مميزات' then
 local Text = [[ 
- ─────── 𖤍 ───────
-𖤍 لستخدام المميزات اتبع مايلي ⇈⇊
- ─────── 𖤍 ───────
-𖤍 قران ⤌ لعرض الميزه
-𖤍اذكار ⤌ لعرض الميزه
-𖤍 الصلاوات ⤌ لعرض الميزه
-𖤍متحركه ⤌ لعرض الميزه
-𖤍 غنيلي ⤌ لعرض الميزه
-𖤍 بوستات ⤌ لعرض الميزه
-𖤍 استوري ⤌ لعرض الميزه
-𖤍 تصميم ⤌ لعرض الميزه
-𖤍حساب العمر ⤌ لعرض الميزه
-𖤍حساب الوزن ⤌ لعرض الميزه
-𖤍 نسبه الحب ⤌ لعرض الميزه
-𖤍نسبه الغباء ⤌ لعرض الميزه
-𖤍 جمالي ⤌ لعرض الميزه
-𖤍 افلام ⤌ لعرض الميزه
-𖤍اغاني ⤌ لعرض الميزه
-𖤍 روايات ⤌ لعرض الميزه
-𖤍 ثمات ⤌ لعرض الميزه
-𖤍همسه ⤌ لعرض الميزه
-𖤍 معني + اسمك ⤌ لعرض الميزه
-𖤍 خلفيات ⤌ لعرض الميزه
+ ─────── ☽ ───────
+☽ لستخدام المميزات اتبع مايلي ⇈⇊
+ ─────── ☽ ───────
+☽ قران ⤌ لعرض الميزه
+☽اذكار ⤌ لعرض الميزه
+☽ الصلاوات ⤌ لعرض الميزه
+☽متحركه ⤌ لعرض الميزه
+☽ غنيلي ⤌ لعرض الميزه
+☽ بوستات ⤌ لعرض الميزه
+☽ استوري ⤌ لعرض الميزه
+☽ تصميم ⤌ لعرض الميزه
+☽حساب العمر ⤌ لعرض الميزه
+☽حساب الوزن ⤌ لعرض الميزه
+☽ نسبه الحب ⤌ لعرض الميزه
+☽نسبه الغباء ⤌ لعرض الميزه
+☽ جمالي ⤌ لعرض الميزه
+☽ افلام ⤌ لعرض الميزه
+☽اغاني ⤌ لعرض الميزه
+☽ روايات ⤌ لعرض الميزه
+☽ ثمات ⤌ لعرض الميزه
+☽همسه ⤌ لعرض الميزه
+☽ معني + اسمك ⤌ لعرض الميزه
+☽ خلفيات ⤌ لعرض الميزه
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
- 𖤍 𝗖𝗛 - [ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗘𝗩𝗢 ](t.me/UU_LM_5) 
+ ☽ 𝗖𝗛 - [ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗔𝗜𝗗𝗔 ](t.me/S_a_i_d_i) 
 ╾╾╾╾╾╾╾╾╾╾╾╾╾╾╾╸
 ]]
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍', url="t.me/UU_LM_5"}}, 
-{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text =  '𖣘 𝙹𝙰𝙱𝚆𝙰 𖣘' ,url="t.me/J_A_B_W_A"}},
+{{text = '𖣘 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 𖣘', url="t.me/S_a_i_d_i"}}, 
+{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/406/903&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/S_a_i_d_i/406/903&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
 
-┍━━━━━◤[𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾](http://t.me/UU_LM_5)◥━━━━━┑
+┍━━━━━☞[𝚂𝙰𝙸𝙳𝙸](http://t.me/S_a_i_d_i)☜━━━━━┑
 
 
-[𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ](http://t.me/UU_LM_5)
+[𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙰 ](http://t.me/S_a_i_d_i)
 
-                                                                                        
-┕━━━━━◣[𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾(http://t.me/UU_LM_5)◢━━━━━┙
+
+[𝚃𝙷𝙴𝚂𝚃𝚁𝙾𝙽𝙶𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝚃𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 ](http://t.me/S_a_i_d_i)
+                                                                                           
+┕━━━━━☞[𝚂𝙰𝙸𝙳𝙸](http://t.me/S_a_i_d_i)☜━━━━━┙
 
 
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"},{text = '𝙰𝙷𝙼𝙰𝙳', url="t.me/L011x"}},
-{{text = '𖤍 𝙹𝙰𝙱𝚆𝙰 𖤍',url="t.me/J_A_B_W_A"}},
-{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍',url="t.me/UU_LM_5"}},
-{{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
+{{text = '☾ 𝙹𝙰𝙱𝚆𝙰 ☽',url="t.me/J_A_B_W_A"},{text = '☾ 𝚃𝙰𝙷𝙰 𝙾𝚂𝙺𝙰𝚁 ☽', url="t.me/Xxx_ksomk_xxX"}},
+{{text = '☾ 𝚂𝙰𝙼𝙴𝙷 ☽',url="t.me/Sa_me_h"}},
+{{text = '☾ 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙸 ☽',url="t.me/S_a_i_d_i"}},
+{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3277,7 +3279,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𖤍 𝙴 𝚅 𝙰 𝙽 𝙳 𝙸 𖤍',url="t.me/LM011N"}},
-{{text = '𖤍 𝚃𝙾 𝙰𝚂𝙺 𖤍',url="t.me/J_a_b_w_a_bot"}}, 
+{{text = '𖤍 𝚃𝙾 𝙰𝚂𝙺 𖤍',url="t.me/@UU5iM_bot"}}, 
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
 {{text = 'اضف البوت الي مجموعتك 𖤍',url="t.me/"..dofile("./kkkklInfo.lua").botUserName.."?startgroup=start"}}, 
 }
@@ -4340,7 +4342,7 @@ tdcli_function ({ID = "SearchPublicChat",username_ = username}, start_function, 
 end
 if text == '𖤍  𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾  𖤍' then
 local Text = [[ 
-↯ من أحسن السورسات على التليجرام سورس صعيدي ↯
+↯ من أحسن السورسات على التليجرام سورس ايفو ↯
 حمايه↤سرعه↤دقه↤وامان
  قناه السورس ⇈⇊
   [𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚂𝙰𝙸𝙳𝙰](http://t.me/UU_LM_5)
@@ -4350,7 +4352,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == '𖤍━┅┄⟞⟦᪣ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 ᪣⟧⟝┄┉━𖤍' then
 local Text = [[ 
@@ -4364,33 +4366,7 @@ keyboard.inline_keyboard = {
 {{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-if text == '╰──── ● «✯SAIDI✯» ● ────╯' then
-local Text = [[ 
-  𖤍 من أحسن السورسات على التليجرام سورس صعيدي 𖤍
-بجد سورس أمان جدا وفي مميزات جامده
-تع نصب بوتك عندنا لو محظور
-خش علي تواصل هيدخلك قناه اليوزرات تواصل معنا↓↓↓
-]]
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍 ', url="t.me/UU_LM_5"}},
-} 
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-if text == 'التواصل'  then
-database:del(bot_id..'Srt:Bot') 
-local Text = [[ 
-[TWL](t.me/J_a_b_w_a_bot)
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = '𖤍 𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝚅𝙾 𖤍', url="t.me/J_a_b_w_a_bot"}}, 
-} 
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/Qwressv/163&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/UU_LM_5/17=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'الالعاب' or text == 'العاب ايفو' or text == 'عوز العاب' then  
 local Text = [[  
@@ -12457,7 +12433,7 @@ if database:sismember(bot_id..'Special:User'..msg.chat_id_, result.sender_user_i
 vip = 'مميز ،' else vip = ''
 end
 if Can_or_NotCan(result.sender_user_id_,msg.chat_id_) ~= false then
-send(msg.chat_id_, msg.id_,"\n 𖤍 تم تنزيل الشخص من الرتب التاليه \n 𖤍 { "..dev..''..crr..''..cr..''..own..''..mod..''..mn..''..vip.." } \n")
+send(msg.chat_id_, msg.id_,"\n ?? تم تنزيل الشخص من الرتب التاليه \n 𖤍 { "..dev..''..crr..''..cr..''..own..''..mod..''..mn..''..vip.." } \n")
 else
 send(msg.chat_id_, msg.id_,"\n 𖤍  عذرا الـعـضو  لايملك رتبه \n")
 end
