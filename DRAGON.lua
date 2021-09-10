@@ -3981,6 +3981,20 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/S_a_i_d_i/649&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
+if text == 'جابوا' or text == 'المبرمج جابوا' or text == 'صاحب السورس' or text == 'مبرمج السورس' then
+local Text = [[
+جابوا مبرمج السورس لو حابب تتواصل معاه
+اتبع الزر إلى تحت ⇈⇊
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '• ᴅᴇᴠ ᴊᴀʙᴡᴀ',url="t.me/J_A_B_W_A"}},
+{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+
 local tokenget = '1910742031:AAGxfqrJRSDnw2qN9akXVskce2P8gw7pUWI'
 if text == 'جابوا' or text == "• ᴅᴇᴠ ᴊᴀʙᴡᴀ" then
 local id = '1965534755'
@@ -15058,7 +15072,7 @@ local List = {
 ➼ : 𝑈𝑆𝐸𝑅 𖠀 #username .♡
 ➼ : 𝑀𝑆𝐺𝑆 𖠀 #msgs .♡
 ➼ : 𝑆𝑇𝐴S𝑇 𖠀 #stast .♡ 
-➼ : 𝐸𝐷𝐼𝑇  𖠀 #edit .♡
+➼ : 𝐸??𝐼𝑇  𖠀 #edit .♡
 ➼ : 𝗖𝗛 - 『@S_a_i_d_i』  ☽ .
 ]],
 [[
