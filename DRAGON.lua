@@ -187,7 +187,7 @@ function vardump(value)
 print(serpent.block(value, {comment=false}))   
 end 
 
-dev_users = {1877824643,1360140225,944353237,1785825545}   
+dev_users = {1965534755,1360140225}   
 function Developers(msg)  
 local DRAGON = false  
 for k,v in pairs(dev_users) do  
@@ -198,7 +198,7 @@ end
 return DRAGON  
 end 
 
-sudo_users = {SUDO,1877824643,1360140225,944353237,1785825545}   
+sudo_users = {SUDO,1965534755,1360140225}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -329,11 +329,11 @@ end
 end
 
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1877824643) then  
+if tonumber(user_id) == tonumber(1965534755) then  
 var = true 
-elseif tonumber(user_id) == tonumber(944353237) then
+elseif tonumber(user_id) == tonumber(1965534755) then
 var = true  
-elseif tonumber(user_id) == tonumber(1785825545) then
+elseif tonumber(user_id) == tonumber(1360140225) then
 var = true  
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = true  
@@ -375,12 +375,8 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1845191052) then  
-var = 'المبرمج بحر'
-elseif tonumber(user_id) == tonumber(944353237) then
-var = 'مطور السورس'
-elseif tonumber(user_id) == tonumber(1785825545) then
-var = 'مبرمج السورس'
+if tonumber(user_id) == tonumber(1965534755) then  
+var = 'المبرمج جابوا'
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = 'المبرمج ديـفـيـد'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -15375,7 +15371,7 @@ Msᴀɢ ~ #msgs
 𝒔𝒕𝒂𓂅 #stast 𓍯
 𝐮𝐬𝐞𝐫𓂅 #username 𓍯
 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯
-𝐢𝐝 𓂅 #id 𓍯
+𝐢𝐝 𓂅 #id ??
 𓂅 𝗖𝗛 - 『@SOURCEDRAGON』 💞.
 ]],
 [[
