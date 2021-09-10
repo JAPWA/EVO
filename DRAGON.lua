@@ -1628,19 +1628,32 @@ end
 
 ------by-banda--
 if Chat_Type == 'UserBot' then
-if text == '/start' or text == '『رجوع』' then 
-if Devban(msg) then
-if not msa3d(msg) then
-local bl = ' ☽ انت الان المطور الثانوي في البوت \n ☽  سورس صعيدي\n  ☽ يمكنك تحكم في البوتات من الكيبورد أسفل \n[تابع جديدنا](t.me/S_a_i_d_i)'
+if text == '/start' or text == 'العوده ➷' then  
+if AddChannel(msg.sender_user_id_) == false then
+local textchuser = database:get(bot_id..'text:c h:user')
+if textchuser then
+send(msg.chat_id_, msg.id_,'['..textchuser..']')
+else
+send(msg.chat_id_, msg.id_,' ☽ لا تستطيع استخدام البوت يرجى الاشتراك في القناة حتى تتمكن من استخدام الاوامر \n ☽ اشترك هنا ['..database:get(bot_id..'add:ch:username')..']')
+end
+return false
+end
+if DevSoFi(msg) then
+local bl = 'مرحبا بك في كيب المطور الاساسي 🙂🖤'
 local keyboard = {
+{'قناة السورس','مبرمج السورس'},
+{'ضع اسم للبوت','معلومات الكيبورد'},
 {'الاحصائيات'},
 {'المطور','المساعد'},
-{'معلومات الكيبورد'},
-{'『تواصل لسورس』','『اوامر اضف』'},
-{'『اوامر التفعيل』','『اوامر الحمايه』'},
+{'⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺'},
+{'قسـم مـطـورين السـورس','اوامـر اضـف ومـسـح'},
+{'اوامـر تفعيل و تعطـيل','اوامـر الحـمـايه'},
+{'اوامـر الاذاعـه'},
+{'⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺'},
 {'جلب المشتركين','جلب النسخه'},
-{'جلب المطورين'},
+{'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
+{'معلومات السيرفر'},
 {'الغاء'},
 }
 send_inline_key(msg.chat_id_,bl,keyboard)
@@ -1686,16 +1699,19 @@ end
 --------------------------------------------------------------------------------------------------------------
 
 if Chat_Type == 'UserBot' then
-if text == '/start' or text == '『رجوع』' then  
+if text == '/start' or text == 'رجوع' then  
 if msa3d(msg) then
 local bl = ' ☽ انت الان المطور الاساسي في البوت \n ☽  سورس صعيدي\n  ☽ يمكنك تحكم في البوتات من الكيبورد أسفل \n[تابع جديدنا](t.me/S_a_i_d_i)'
 local keyboard = {
+{'قناة السورس','مبرمج السورس'},
 {'ضع اسم للبوت','معلومات الكيبورد'},
-{'المطور','المساعد'},
 {'الاحصائيات'},
-{'『تواصل لسورس』'},
-{'『اوامر الاذاعه』','『اوامر اضف』'},
-{'『اوامر التفعيل』','『اوامر الحمايه』'},
+{'المطور','المساعد'},
+{'⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺'},
+{'قسـم مـطـورين السـورس','اوامـر اضـف ومـسـح'},
+{'اوامـر تفعيل و تعطـيل','اوامـر الحـمـايه'},
+{'اوامـر الاذاعـه'},
+{'⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺'},
 {'جلب المشتركين','جلب النسخه'},
 {'جلب المطورين','جلب التوكن'},
 {'تحديث السورس ','الاصدار'},
@@ -1910,67 +1926,63 @@ end
 tdcli_function ({ ID = "GetMessage", chat_id_ = msg.chat_id_, message_id_ = tonumber(msg.reply_to_message_id_) }, by_reply, nil) 
 end
 
-if text == '『تواصل لسورس』' and Devban(msg) then 
+if text == 'قسـم مـطـورين السـورس' and DevSoFi(msg) then 
 local Text = 'قسم مطورين السورس لدخول الي حسابتهم'
 local Key = {
-{'⇣───『 قـناه المطورين』───⇣'},
+{'⇣•-•-•-•⟮قـناه الـبرمجه⟯•-•-•-•⇣'},
+{'المبرمج جابوا','المبرمج طه'},
+{'المبرمج اكسسلفر','المالك مصري'},
 {'قناة السورس','التواصل'},
-{'『رجوع』'},
+{'العوده ➷'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-if text == '『اوامر اضف』' and Devban(msg) then 
-local Text = 'قسم مسح واضف مثلا اضف رد عام مسح رد عام'
+if text == 'اوامـر اضـف ومـسـح' and DevSoFi(msg) then 
+local Text = 'مـرحـبــا بــك في قسـم اضـف ومـسـح 🌚❤️'
 local Key = {
 {'اضف رد عام','مسح رد عام'},
 {'مسح رد استارت','اضف رد استارت'},
 {'اضف رد متعدد','مسح رد متعدد'},
-{'مسح الردود','مسح الردود المتعدده'},
-{'مسح الثانوين'},
 {'ضع كليشه ستارت','مسح كليشه ستارت'},
 {'ضع قناة الاشتراك','مسح رساله الاشتراك'},
-{'『رجوع』'},
+{'العوده ➷'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-
-
-if text == '『اوامر التفعيل』' and Devban(msg) then 
-local Text = 'قسم التفعيل والتعطيل لتفعيل كل شئ في البوت'
+if text == 'اوامـر تفعيل و تعطـيل' and DevSoFi(msg) then 
+local Text = 'مـرحـبــا بــك في قسـم تفعيل وتعطـيل 🌚❤️'
 local Key = {
 {'تعطيل الاذاعه','تفعيل الاذاعه'},
 {'تعطيل المغادره','تفعيل المغادره'},
 {'تعطيل التواصل ','تفعيل التواصل '},
-{'تعطيل النسخه التلقائيه','تفعيل النسخه التلقائيه'},
 {'تفعيل الاشتراك الاجباري','تعطيل الاشتراك الاجباري'},
 {'تفعيل البوت الخدمي ','تعطيل البوت الخدمي '},
-{'『رجوع』'},
+{'العوده ➷'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-if text == '『اوامر الحمايه』' and Devban(msg) then 
-local Text = 'قسم الحمايه يوجد في المطورين والثانوين والخ...'
+if text == 'اوامـر الحـمـايه' and DevSoFi(msg) then 
+local Text = 'مـرحـبــا بــك في قسـم الحـمـآيه الخـاص بــي بــوتك 🌚❤️'
 local Key = {
 {'قائمه الكتم العام','المطورين','قائمه العام'},
 {'المشتركين','الجروبات ','الردود العامه'},
-{'الثانوين','الردود المتعدده'},
+{'الثانوين'},
 {'تنظيف الجروبات ','تنظيف المشتركين'},
 {'تغير رساله الاشتراك ','الاشتراك الاجباري','تغير الاشتراك'},
-{'『رجوع』'},
+{'العوده ➷'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-if text == '『اوامر الاذاعه』' and Devban(msg) then 
-local Text = 'قسم الاذاعات لعمل اذاعه في البوت'
+if text == 'اوامـر الاذاعـه' and DevSoFi(msg) then 
+local Text = 'مـرحـبــا بــك في قسـم الاذاعه 🌚❤️'
 local Key = {
 {'اذاعه ','اذاعه خاص '},
 {'اذاعه بالتثبيت '},
 {'اذاعه بالتوجيه ','اذاعه بالتوجيه خاص '},
-{'『رجوع』'},
+{'العوده ➷'},
 }
 send_inline_key(msg.chat_id_,Text,Key)
 end 
-
 
 if text == 'جلب المطورين' and Devban(msg) then  
 local list = bot_data:smembers(ban_id..'Sudo:User') 
@@ -2062,15 +2074,15 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendmessage?chat_id=' .. msg.sender_user_id_ .. '&text=' ..token) 
 send(msg.chat_id_, msg.id_,' ') 
 end
-if text == 'هيفو مبرمج السورس' and Devban(msg) then
+if text == 'جابوا مبرمج السورس' and Devban(msg) then
 bot_data:del(ban_id..'Srt:Bot') 
 local Text = [[ 
-『المبرمج هيفو لو حابب تتواصل معاه
+『المبرمج جابوا لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓』
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '˹ᴅᴇᴠɪᴅ➧ᴏғғʟɪɴᴇ˼', url="t.me/de_vi_d"}}, 
+{{text = '˹• ᴅᴇᴠ ᴊᴀʙᴡᴀ ˼', url="t.me/J_A_B_W_A"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -2078,14 +2090,14 @@ end
 if text == 'قناه السورس' and Devban(msg) then
 bot_data:del(ban_id..'Srt:Bot') 
 local Text = [[ 
-  ☽  من أحسن السورسات على التليجرام سورس صعيدي  ☽ 
+  من أحسن السورسات على التليجرام سورس صعيدي
 بجد سورس أمان جدا وفي مميزات جامده
 تع نصب بوتك عندنا لو محظور
 خش على تواصل هيدخلك لروم التواصل 
 ]] 
 keyboard = {}  
-keyboard.inline_keyboard = { 
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}}, 
+keyboard.inline_keyboard = {
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url="t.me/S_a_i_d_i"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3771,7 +3783,7 @@ keyboard.inline_keyboard = {
 {text = '◗ متطوره◖', callback_data="/DRG"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -3790,7 +3802,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر الاعضاء', callback_data="/change-names"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -3836,7 +3848,7 @@ keyboard.inline_keyboard = {
 {text = '@Dlik', callback_data="/Dlik"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -3924,7 +3936,7 @@ keyboard.inline_keyboard = {
 {text = '• الجوزاء 🌩', callback_data="/zguza"},{text = '• الدلو 🦯', callback_data="/zdlu"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 local msg_id = msg.id_/2097152/0.5
@@ -5160,7 +5172,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}}, 
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -5174,7 +5186,7 @@ local Text = [[
 ]]
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}}, 
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/41&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -5224,7 +5236,7 @@ keyboard.inline_keyboard = {
 {{text = 'SpaceTraveler', url="https://t.me/gamee?game=SpaceTraveler"},{text = 'RedAndBlue', url="https://t.me/gamee?game=RedAndBlue"}},  
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/vagwg/6&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14048,7 +14060,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/comxnxp/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14058,7 +14070,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/comxnxp/19&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14068,7 +14080,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendsticker?chat_id=' .. msg.chat_id_ .. '&sticker=https://t.me/comxnxp/20&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14079,7 +14091,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/comxnxp/21&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14091,7 +14103,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendsticker?chat_id=' .. msg.chat_id_ .. '&sticker=https://t.me/D_V1_D/94&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14102,7 +14114,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendsticker?chat_id=' .. msg.chat_id_ .. '&sticker=https://t.me/D_V1_D/93&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14113,7 +14125,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendsticker?chat_id=' .. msg.chat_id_ .. '&sticker=https://t.me/D_V1_D/95&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14125,7 +14137,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendanimation?chat_id=' .. msg.chat_id_ .. '&animation=https://t.me/D_V1_D/96&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -18060,7 +18072,7 @@ keyboard.inline_keyboard = {
 {{text = 'لعبه كشف الكذب', callback_data="/help47"}},
 {{text = 'مريم', callback_data="/help36"},{text = 'عقاب', callback_data="/help42"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18188,7 +18200,7 @@ keyboard.inline_keyboard = {
 {{text = 'SkodaHockey1 ', url="https://t.me/gamee?game=SkodaHockey1"},{text = 'SummerLove', url="https://t.me/gamee?game=SummerLove"}},  
 {{text = 'SmartUpShark', url="https://t.me/gamee?game=SmartUpShark"},{text = 'SpikyFish3', url="https://t.me/gamee?game=SpikyFish3"}},  
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18225,7 +18237,7 @@ keyboard.inline_keyboard = {
 {text = '◗القائمه الرائسيه◖', callback_data="/change-id"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -18242,7 +18254,7 @@ keyboard.inline_keyboard = {
 {text = 'اوامر الاعضاء', callback_data="/change-names"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
@@ -18266,7 +18278,7 @@ keyboard.inline_keyboard = {
 {{text = 'غنيلي', callback_data="/help17"}},
 {{text = 'نسبه جمالي', callback_data="/help18"},{text = 'اليتيوب', callback_data="/help24"}},
 {{text = '◗القائمه الرائسيه◖', callback_data="/add"}},
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
@@ -18393,7 +18405,7 @@ keyboard.inline_keyboard = {
 {text = '◗ متطوره◖', callback_data="/DRG"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -18429,7 +18441,7 @@ keyboard.inline_keyboard = {
 {text = '• الجوزاء 🌩', callback_data="/zguza"},{text = '• الدلو 🦯', callback_data="/zdlu"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -18449,7 +18461,7 @@ keyboard.inline_keyboard = {
 {text = 'نبذه عن السورس', callback_data="/change-ghjjgyy"},
 },
 {
-{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"},
+{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
@@ -18502,7 +18514,7 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ', url="t.me/S_a_i_d_i"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´', url="t.me/S_a_i_d_i"}},
 {{text = '˹تــواصــل الـسـورس˼',url="t.me/DRAGON_TeAm1"}}, 
 {{text = ' ☽ 𝙱𝙰𝙲𝙺↵', callback_data="/change-hhh"}},
 }
@@ -21076,7 +21088,7 @@ bot_data:srem(ban_id..'S00F4:MN:TF'..msg.chat_id_, data.sender_user_id_)
 bot_data:srem(ban_id..'Special:User'..msg.chat_id_, data.sender_user_id_)
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽  تم تنزيلك من جميع الرتب")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21087,13 +21099,13 @@ if bot_data:get(ban_id..'Set:array'..data.sender_user_id_..':'..Chat_id) == 'tru
 bot_data:del(ban_id..'Set:array'..data.sender_user_id_..':'..Chat_id)
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙تم حفظ الردود بنجاح*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 else
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙تم تنفيذ الامر سابقا*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21103,28 +21115,28 @@ tdcli_function({ID="ChangeChatMemberStatus",chat_id_=Chat_id,user_id_=data.sende
 if (data and data.code_ and data.code_ == 400 and data.message_ == "CHAT_ADMIN_REQUIRED") then 
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙ليس لدي صلاحية حظر المستخدمين يرجى تفعيلها !*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
 if (data and data.code_ and data.code_ == 3) then 
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙البوت ليس ادمن يرجى ترقيتي !*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
 if data and data.code_ and data.code_ == 400 and data.message_ == "USER_ADMIN_INVALID" then 
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙عذرا لا استطيع طرد ادمنية الكروب*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
 if data and data.ID and data.ID == 'Ok' then
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape("  ☽ ︙تم الطرد بنجاح*")..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21134,7 +21146,7 @@ if Text == 'noKikedMe'..data.sender_user_id_ then
 local Text =" ☽  تم الغاء الأمر بنجاح "
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21143,7 +21155,7 @@ bot_data:setex(ban_id.."Ss:Cs" .. Chat_id .. ":" .. data.sender_user_id_, 600, t
 local Text =" ☽  ارسل الاذاعة لارسلها الي الجروبات "
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21152,7 +21164,7 @@ bot_data:setex(ban_id.."Send:Bc:Pv" .. Chat_id .. ":" .. data.sender_user_id_, 6
 local Text =" ☽  ارسل الاذاعة لارسلها الي الجروبات "
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21161,7 +21173,7 @@ bot_data:setex(ban_id.."YYYBD_aza3h3" .. Chat_id .. ":" .. data.sender_user_id_,
 local Text =" ☽  ارسل الاذاعة لارسلها الي المطور الاساسي و المساعد "
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
@@ -21170,7 +21182,7 @@ bot_data:sadd(ban_id..'Sudo:User', result.sender_user_id_)
 local Text =" ☽  تم الغاء الأمر بنجاح "
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'ՏΌႮᎡᏟᎬ ᏙᎬΝΌᎷ',url='http://t.me/S_a_i_d_i'}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url='http://t.me/S_a_i_d_i'}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Text)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 end
