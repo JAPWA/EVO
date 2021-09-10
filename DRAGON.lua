@@ -3974,9 +3974,10 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '• ᴅᴇᴠ ᴊᴀʙᴡᴀ',url="t.me/J_A_B_W_A"},{text = '• ᴅᴇᴠ ᴛᴀʜᴀ', url="t.me/TahaSayed9"}},
-{{text = '•ᴍʏ ᴅᴇᴠ♪', callback_data="/units"},{text = '•ᴍʏ ᴄʜᴀɴɴᴇʟ♪', callback_data="/theytry"}},   
-{{text = '♪مــطــور الــبــوت•', url="http://t.me/"..sudos.UserName}},
-{{text = '♪ اضغط لاضافه البوت لمجمعتك •' ,url="t.me/"..dofile("./Info.lua").botUserName.."?startgroup=start"}}, 
+{{text = '• ᴅᴇᴠ ᴏᴍᴇʀ',url="t.me/J_A_B_W_A"},{text = '• ᴅᴇᴠ ᴅᴇѕʜᴀ', url="t.me/TahaSayed9"}},
+{{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url="t.me/S_a_i_d_i"}},
+{{text = 'مـطـور البــوت', url="http://t.me/"..sudos.UserName}},
+{{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/S_a_i_d_i/649&caption=' .. URL.escape(Text).."&photo="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -3993,7 +3994,7 @@ local bio = json.result.bio
 keyboard = {} 
 keyboard.inline_keyboard = {{{text = name,url="t.me/"..user}},}
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/'..user..'&caption=' .. URL.escape(bio).."&reply_to_message_id="..msg_id.."&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A/68&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'ديفيد' or text == 'دفيد' then
 local id = '1360140225'
@@ -4007,7 +4008,7 @@ keyboard.inline_keyboard = {{{text = name,url="t.me/"..user}},}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/'..user..'&caption=' .. URL.escape(bio).."&reply_to_message_id="..msg_id.."&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == 'أحمد' or text == 'احمد' or text == 'احمد عياد' then
+if text == 'جابوا' or text == 'احمد' or text == 'احمد عياد' then
 local id = '944353237'
 local urrl = https.request('https://api.telegram.org/bot'..tokenget..'/getchat?chat_id='..id)
 local json = JSON.decode(urrl)
@@ -4019,7 +4020,7 @@ keyboard.inline_keyboard = {{{text = name,url="t.me/"..user}},}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/'..user..'&caption=' .. URL.escape(bio).."&reply_to_message_id="..msg_id.."&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-if text == 'هيفو' or text == 'Banda' or text == 'banda' then
+if text == 'جابوا' or text == 'Banda' or text == 'banda' then
 local Text = [[
 ᴘʀᴏɢʀᴀᴍᴍᴇʀ ᴘᴀɴᴅᴀ
  ᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ, 
@@ -4032,7 +4033,7 @@ keyboard.inline_keyboard = {
 {{text = '•الــبــوتــات♪', callback_data="/gqjik"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Qtdao/68&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/J_A_B_W_A/68&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 
