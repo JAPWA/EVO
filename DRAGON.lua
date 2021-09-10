@@ -3969,10 +3969,20 @@ end
 ----------------------------------------------------------------- انتهئ الاوامر الجديدة
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
-[▸ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ sᴀɪᴅɪ ◂](http://t.me/S_a_i_d_i)
+
+╭▱▰▱▰𓆩[ＳＡＩＤＩ](http://t.me/S_a_i_d_i)𓆪▱▰▱▰╮
+┆
+┆[▸ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ sᴀɪᴅɪ ◂](http://t.me/S_a_i_d_i)
+┆
+┆[▸ ᴛʜᴇ ʙᴇsᴛ sᴇᴄᴜʀɪᴛʏ sᴏᴜʀᴄᴇ ғᴏʀ ɢʀᴏᴜᴘs ᴛᴇʟᴇɢʀᴀᴍ ◂](http://t.me/S_a_i_d_i)
+┆
+┆[▸ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ʙᴇsᴛ ʙᴜᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴄᴏᴍᴇ ᴛᴏ ᴜs ◂](http://t.me/S_a_i_d_i)
+┆                                                                                                                                                                                    
+╰▱▰▱▰𓆩[ＳＡＩＤＩ](http://t.me/S_a_i_d_i)𓆪▱▰▱▰╯
+
+
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {
 {{text = '• ᴅᴇᴠ ᴊᴀʙᴡᴀ',url="t.me/J_A_B_W_A"},{text = '• ᴅᴇᴠ ᴛᴀʜᴀ', url="t.me/TahaSayed9"}},
 {{text = '• ᴅᴇᴠ ᴏᴍᴇʀ',url="t.me/BOT3mora"},{text = '• ᴅᴇᴠ ᴅᴇѕʜᴀ', url="t.me/XxDesha86Xx"}},
 {{text = '`sᴏᴜʀᴄᴇ sᴀɪᴅɪ´',url="t.me/S_a_i_d_i"}},
@@ -15917,7 +15927,7 @@ Msᴀɢ ~ #msgs
 𝐔𝐬𝐞𝐫𝐍𝐚☤🇪🇬- #username 
 𝐒𝐭𝐚𝐬𝐓 ☤🇪🇬- #stast 
 𝐌𝐬𝐠𝐒☤🇪🇬 - #msgs
-𝗖??☤🇪🇬 - 『@S_a_i_d_i』  ☽ 
+𝗖𝗛☤🇪🇬 - 『@S_a_i_d_i』  ☽ 
 ]],
 [[
 ⭐️𝖘𝖙𝖆 : #stast ـ🍭
