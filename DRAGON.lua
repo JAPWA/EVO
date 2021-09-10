@@ -5297,7 +5297,7 @@ send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر المطور الاسا
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(bot_id) then  
-send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر البوت عام يغبي")
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر البوت عام")
 return false 
 end
 if tonumber(result.sender_user_id_) == tonumber(1965534755) then  
@@ -5354,20 +5354,16 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(1965534755) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك جابوا\n")
-return false 
-end
 if result.id_ == tonumber(1549578895) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك طه\n")
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1372188096) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك عمر\n")
+if result.id_ == tonumber(1827953514) then
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(1770493345) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك ديشا\n")
+if result.id_ == tonumber(1815428019) then
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مطور السورس \n")
 return false 
 end
 usertext = '\n ☽ العضو ← ['..result.title_..'](t.me/'..(username or 'textchuser')..')'
@@ -5402,20 +5398,16 @@ if tonumber(userid) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر البوت عام")
 return false 
 end
-if result.id_ == tonumber(1965534755) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك جابوا\n")
+if tonumber(userid) == tonumber(1549578895) then  
+send(msg.chat_id_, msg.id_, " لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if result.id_ == tonumber(1549578895) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك طه\n")
+if tonumber(userid) == tonumber(1827953514) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مالك السورس عام")
 return false 
 end
-if result.id_ == tonumber(1372188096) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك عمر\n")
-return false 
-end
-if result.id_ == tonumber(1770493345) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك ديشا\n")
+if tonumber(userid) == tonumber(1815428019) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مطور السورس عام")
 return false 
 end
 database:sadd(bot_id..'GBan:User', userid)
@@ -5451,20 +5443,16 @@ if tonumber(result.sender_user_id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم البوت عام")
 return false 
 end
-if result.id_ == tonumber(1965534755) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك جابوا\n")
+if tonumber(result.sender_user_id_) == tonumber(1549578895) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if result.id_ == tonumber(1549578895) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك طه\n")
+if tonumber(result.sender_user_id_) == tonumber(1827953514) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if result.id_ == tonumber(1372188096) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك عمر\n")
-return false 
-end
-if result.id_ == tonumber(1770493345) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر عمك ديشا\n")
+if tonumber(result.sender_user_id_) == tonumber(1815428019) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مطور السورس عام")
 return false 
 end
 database:sadd(bot_id..'Gmute:User', result.sender_user_id_)
@@ -5504,20 +5492,16 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(1965534755) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك جابوا\n")
-return false 
-end
 if result.id_ == tonumber(1549578895) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك طه\n")
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1372188096) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك عمر\n")
+if result.id_ == tonumber(1827953514) then
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مالك السورس \n")
 return false 
 end
-if result.id_ == tonumber(1770493345) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمنكك كتم عمك ديشا\n")
+if result.id_ == tonumber(1815428019) then
+send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مطور السورس \n")
 return false 
 end
 usertext = '\n ☽ العضو ← ['..result.title_..'](t.me/'..(username or 'textchuser')..')'
@@ -5549,23 +5533,19 @@ send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم المطور الاسا
 return false 
 end
 if tonumber(userid) == tonumber(bot_id) then  
-send(msg.chat_id_, msg.id_, " ☽  لا تسطيع كتم البوت عام")
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم البوت عام")
 return false 
 end
-if result.id_ == tonumber(1965534755) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك جابوا\n")
+if tonumber(userid) == tonumber(1549578895) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if result.id_ == tonumber(1549578895) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك طه\n")
+if tonumber(userid) == tonumber(1827953514) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
-if result.id_ == tonumber(1372188096) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم عمك عمر\n")
-return false 
-end
-if result.id_ == tonumber(1770493345) then
-send(msg.chat_id_, msg.id_, " ☽ لا يمنكك كتم عمك ديشا\n")
+if tonumber(userid) == tonumber(1815428019) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مطور السورس عام")
 return false 
 end
 database:sadd(bot_id..'Gmute:User', userid)
@@ -15972,7 +15952,7 @@ Msᴀɢ ~ #msgs
 .𖣂 𝙪𝙨𝙚𝙧𝙣𝙖𝙢𝙚 , #username  🖤 ↴
 .𖣂 𝙨𝙩𝙖𝙨𝙩 , #stast  🖤 ↴
 .𖣂 𝙡𝘿 , #id  🖤 ↴
-.?? 𝘼𝙪𝙩𝙤 , #auto  🖤 ↴
+.𖣂 𝘼𝙪𝙩𝙤 , #auto  🖤 ↴
 .𖣂 𝙢𝙨𝙂𝙨 , #msgs  🖤 ↴
 .𖣂 𝗖𝗛 - 『@S_a_i_d_i』  ☽ 
 ]],
