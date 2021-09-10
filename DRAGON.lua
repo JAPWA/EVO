@@ -13700,7 +13700,7 @@ end
 if text == "بوت" then
 local Namebot = (bot_data:get(ban_id..'Name:Bot') or 'صعيدي') 
 local DRAGON_Msg = { 
-اسمي  '..Namebot..' يا قلبي 🤤💚',
+'اسمي  '..Namebot..' يا قلبي 🤤💚',
 'اسمي '..Namebot..' يا روحي🙈❤️',
 'اسمي  '..Namebot..' يعمري🌚🌹',
 'اسمي  '..Namebot..' يا قمر 🐭🤍',
@@ -13710,7 +13710,7 @@ local DRAGON_Msg = {
 'اسمي الكيوت '..Namebot..' 🌝💘',
 'اسمي  '..Namebot..' ياحياتي🧸♥️',
 'اسمي  '..Namebot..' يوتكه🥀🌘',
-}
+} 
 Namebot = DRAGON_Msg[math.random(#DRAGON_Msg)] 
 local msg_id = msg.id_/2097152/0.5  
 keyboard = {} 
@@ -15095,7 +15095,7 @@ local List = {
 ⌔➺: Msgs : #msgs - 🔹.
 ⌔➺: ID : #id - 🔹.
 ⌔➺: Stast : #stast -🔹.
-⌔➺: UserName : #username -??.
+⌔➺: UserName : #username -🔹.
 ⌔➺: 𝗖𝗛 - 『@S_a_i_d_i』  ☽ .
 ]],
 [[
@@ -15532,7 +15532,7 @@ Msᴀɢ ~ #msgs
 𖤂 ~ 𝗖𝗛 - 『@S_a_i_d_i』  ☽ 
 ]],
 [[
--›   𝚄𝚂𝙴𝚁𝙽𝙰𝙼?? . #username 🇪🇬 ꙰ 
+-›   𝚄𝚂𝙴𝚁𝙽𝙰??𝙴 . #username 🇪🇬 ꙰ 
 -›   𝚂𝚃𝙰𝚂𝚃 . #stast 🇪🇬 ꙰
 -›   𝙸𝙳 . #id 🇪🇬 ꙰ 
 -›   𝙶𝙼𝙰𝚂 . #stast 🇪🇬 ꙰ 
@@ -17324,7 +17324,7 @@ local Teext =[[
 ⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺
   ☽ رفع + تنزيل ⇇ ارمله
   ☽ تاك للارامل
-⩹━━━━⊶❲?? 𝐒𝐀??𝐃𝐈 𖥳❳⊷━━━━⩺
+⩹━━━━⊶❲𖥳 𝐒𝐀??𝐃𝐈 𖥳❳⊷━━━━⩺
   ☽ رفع + تنزيل ⇇ خول
   ☽ تاك للخولات
 ⩹━━━━⊶❲𖥳 𝐒𝐀𝐈𝐃𝐈 𖥳❳⊷━━━━⩺
