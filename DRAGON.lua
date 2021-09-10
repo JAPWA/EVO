@@ -5323,8 +5323,8 @@ bot_data:sadd(ban_id..'GDRG:User', result.sender_user_id_)
 chat_kick(result.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},
 function(arg,data) 
-usertext = '\n ● الـعـضو   ⇇ ['..data.first_name_..'](t.me/'..(data.username_ or 'SOURCEVENOM')..')'
-status  = '\n ● تم حظرو عام من الجروبات '
+usertext = '\n ☽ العضو ← ['..data.first_name_..'](t.me/'..(data.username_ or 'textchuser')..')'
+status  = '\n ☽ تم حظره عام من {'..Groups..'} مجموعه'
 send(msg.chat_id_, msg.id_, usertext..status)
 end,nil)
 end
@@ -5377,8 +5377,8 @@ if result.id_ == tonumber(1770493345) then
 send(msg.chat_id_, msg.id_, " ?? لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-usertext = '\n ● الـعـضو   ⇇ ['..result.title_..'](t.me/'..(username or 'SOURCEVENOM')..')'
-status  = '\n ● تم حظرو عام من الجروبات '
+usertext = '\n ☽ العضو ← ['..data.first_name_..'](t.me/'..(data.username_ or 'textchuser')..')'
+status  = '\n ☽ تم حظره عام من {'..Groups..'} مجموعه'
 texts = usertext..status
 bot_data:sadd(ban_id..'GDRG:User', result.id_)
 else
@@ -5432,8 +5432,8 @@ end
 bot_data:sadd(ban_id..'GDRG:User', userid)
 tdcli_function ({ID = "GetUser",user_id_ = userid},function(arg,data) 
 if data.first_name_ then
-usertext = '\n ● الـعـضو   ⇇ ['..data.first_name_..'](t.me/'..(data.username_ or 'SOURCEVENOM')..')'
-status  = '\n ● تم حظرو عام من الجروبات '
+usertext = '\n ☽ العضو ← ['..data.first_name_..'](t.me/'..(data.username_ or 'textchuser')..')'
+status  = '\n ☽ تم حظره عام من {'..Groups..'} مجموعه'
 send(msg.chat_id_, msg.id_, usertext..status)
 else
 usertext = '\n ● الـعـضو   ⇇ '..userid..''
