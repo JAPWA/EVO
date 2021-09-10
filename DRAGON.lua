@@ -5300,20 +5300,16 @@ if tonumber(result.sender_user_id_) == tonumber(bot_id) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر البوت عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1965534755) then  
-send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر عمك جابوا")
-return false 
-end
 if tonumber(result.sender_user_id_) == tonumber(1549578895) then  
-send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر عمك طه")
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1372188096) then  
-send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر عمك عمر")
+if tonumber(result.sender_user_id_) == tonumber(1827953514) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1770493345) then  
-send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر عمك ديشا")
+if tonumber(result.sender_user_id_) == tonumber(1815428019) then  
+send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
 database:sadd(bot_id..'GBan:User', result.sender_user_id_)
