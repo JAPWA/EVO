@@ -3318,7 +3318,7 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/S_a_i_d_i/406/903&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-
+----------------------------------------------------------------- انتهئ الاوامر الجديدة
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' or text == 'source' then
 local Text = [[
 •𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
@@ -14212,7 +14212,7 @@ if not my_ph then
 send(msg.chat_id_, msg.id_,"  ") 
 return false  
 end
-send(msg.chat_id_,msg.id_, '[ضحكتك عثل زيكك ينوحيي ??❤️](t.me/S_a_i_d_i)')
+send(msg.chat_id_,msg.id_, '[ضحكتك عثل زيكك ينوحيي 🌝❤️](t.me/S_a_i_d_i)')
 return false
 end
 
@@ -15463,7 +15463,7 @@ local List = {
 ]],
 [[
 ► 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 #username 𓃚  ꙰
-► 𝗜𝗗 #id 𓃚 ꙰
+► 𝗜𝗗 #id ?? ꙰
 ► 𝗦𝗧𝗔𝗦 #stast 𓃚 ꙰
 ► 𝗠𝗦𝗔𝗚 #msgs 𓃚 ꙰
 ► 𝗖𝗛 - ↝@S_a_i_d_i↜ ☽ .
@@ -17996,7 +17996,7 @@ local Teext =[[
 🎧╢ Audio
 📞╢ Optiments
 🔊╢ Welcome
-??╢ The decorative
+🏨╢ The decorative
 💱╢ Translate
 🔄╢ Responses
 🚿╢ Guidance
@@ -18742,6 +18742,83 @@ return false
 end
 --- callback added
 
+if Text == '/change-siusr' then
+local Teext =[[
+𖢜 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
+{{text = ' مــطــور الــبــوت🔰', url="http://t.me/"..sudos.UserName}},
+}
+return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
+end
+if Text == '/bnada-yquio' then
+local Teext =[[
+ᴘʀᴏɢʀᴀᴍᴍᴇʀ ᴘᴀɴᴅᴀ
+ ᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ, 
+ғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ  
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'Ᏼ Ꭺ Ν Ꭰ Ꭺ~"𖥕𝖋_𝖔𝖋𝖋🇬🇺',url="t.me/de_vi_d"}},
+{{text = '•الــقــنــوات♪', callback_data="/Ajobanf"},{text = '•الــبــارات♪', callback_data="/banfai"}},  
+{{text = '•الــبــوتــات♪', callback_data="/gqjik"}},
+}
+return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
+end
+if Text == '/Ajobanf' then
+local Teext =[[
+ᴘʀᴏɢʀᴀᴍᴍᴇʀ ᴘᴀɴᴅᴀ
+ ᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ, 
+ғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ  
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '⌯ ˹𝙆𝙖𝙧𝙖˼',url="t.me/amrhaj"},{text = '𝑆𝐸𝐸 𝑃𝑂𝑆𝑇',url="t.me/see_post7"}},
+{{text = 'Different 🇪🇬 مختلف',url="t.me/viwo_zx"},{text = '𝙱𝙻𝙰𝙲𝙺 🖤 𝙱𝙾𝙾𝙺 ⚚',url="t.me/black_bookl"}},
+{{text = '𓆩ᏴᎪᎠ ΝᎥᏀᎻͲ𓆪',url="t.me/Sh_e_t_o_s1"},{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼 2⤶ 𝙱𝙾𝙾𝙺 ⚚',url="t.me/SOURCEDRAGON2"}},
+{{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/bnada-yquio"}},
+}
+return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
+end
+if Text == '/banfai' then
+local Teext =[[
+ᴘʀᴏɢʀᴀᴍᴍᴇʀ ᴘᴀɴᴅᴀ
+ ᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ, 
+ғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ  
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '™ͲᎬᎪᎷ▷Ғ_ΌҒҒ🇨🇷',url="t.me/DRAGON_TeAm1"}},
+{{text = 'Ᏼ.Ꭺ.Ꭱ▷Ᏼ.Ꭺ.Ν.Ꭰ.Ꭺ🇱🇸',url="t.me/Quqsk"}},
+{{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/bnada-yquio"}},
+}
+return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
+end
+if Text == '/gqjik' then
+local Teext =[[
+ᴘʀᴏɢʀᴀᴍᴍᴇʀ ᴘᴀɴᴅᴀ
+ ᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ, 
+ғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ  
+
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = 'بوت زخرفه اسماء ✅',url="t.me/Quick_1bot"}},
+{{text = 'بوت تعليم اوامر السيرفر ✅',url="t.me/Qrao_bot"}},
+{{text = 'بوت دعم قنوات ✅',url="t.me/Qdja_bot"}},
+{{text = 'بوت حمايه الجروبات ✅',url="t.me/Qskr_bot"}},
+{{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/bnada-yquio"}},
+}
+return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
+end
+
+
 if Text == '/HHH' then
 local Teext =[[
 •𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾??⇣
@@ -18756,7 +18833,7 @@ return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption
 end
 if Text == '/theytry' then
 local Teext =[[
-•𝚆??𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
+•𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚅𝙴𝙽𝙾𝙼⇣
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -18772,9 +18849,9 @@ local Teext =[[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '• ᴅᴇᴠ ᴊᴀʙᴡᴀ',url="t.me/J_A_B_W_A"},{text = '• ᴅᴇᴠ ᴛᴀʜᴀ', url="t.me/TahaSayed9"}},
-{{text = '• ᴅᴇᴠ ᴏᴍᴇʀ',url="t.me/BOT3mora"},{text = '• ᴅᴇᴠ ᴅᴇѕʜᴀ', url="t.me/XxDesha86Xx"}},
-{{text = '𝙱𝙰𝙲𝙺 ↵', callback_data="/HHH"}},
+{{text = '•ᴅᴇᴠɪᴅ♪',url="t.me/de_vi_d"},{text = '•ᴀʜᴍᴀᴅ♪', url="t.me/YYYBD"}},
+{{text = '•ʙᴀʜʀ',url="t.me/B_7_R_1"},{text = '•ʀᴏʙᴏᴛ♪', url="t.me/P_X_U"}},
+{{text = '●𝙱𝙰𝙲𝙺↵', callback_data="/HHH"}},
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessagecaption?chat_id='..Chat_id..'&caption='..URL.escape(Teext)..'&message_id='..msg_idd..'&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard))  
 end
