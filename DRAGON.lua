@@ -970,21 +970,6 @@ tdcli_function ({ ID = "GetUserProfilePhotos", user_id_ = bot_id, offset_ = 0, l
 end
 end
 
-if text == "مـبــرمـج السـورس" then
-if not DevSoFi(msg) then
-local Text = [[
-𓆩 قناه المبرمج حربي𓆪
-]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text = 'المطور حربي', url="t.me/J_P_T"}}
-{{text = 'حساب حربي',url="t.me/J_P_T"}}, 
-
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."https://t.me/J_P_T&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
-end
-end
 if text == "اسعار التنصيب" then
 if not DevSoFi(msg) then
 local Text = [[
@@ -9243,7 +9228,7 @@ function start_function(extra, result, success)
 database:sadd(bot_id..'Zahf:User'..msg.chat_id_, result.sender_user_id_)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 usertext = '\n ?? الـعـضو  ← ['..data.first_name_..'](t.me/'..(data.username_ or 'textchuser')..')'
-local  statuss  = '\n 𖥳 تم رفع قلبي في الجروب\n'
+local  statuss  = '\n ?? تم رفع قلبي في الجروب\n'
 send(msg.chat_id_, msg.id_, usertext..statuss)
 end,nil)
 end
