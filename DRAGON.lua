@@ -978,7 +978,6 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'المطور حربي', url="t.me/J_P_T"}}
-{{text = 'كروب حـربي', url="t.me/syrians_14"}},
 {{text = 'حساب حربي',url="t.me/J_P_T"}}, 
 
 }
